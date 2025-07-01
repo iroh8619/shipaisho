@@ -17,7 +17,7 @@ import { debug } from "../GameData.js";
 import { ShiNotationMove } from "./ShiNotation.js";
 
 
-botGameStarted = false;
+var botGameStarted = false;
 
 export var ShiPreferences = {
     tileDesignKey: "TileDesigns",
